@@ -1,51 +1,49 @@
 # Symptoms: condition_occurance.csv
 Cough: 254761
-cough variant asthma: 313236
-Cough headache syndrome: 373463
 Abnormal breathing: 4305080
-Muscle pain: 442752
+Muscle pain: 442752 
 Headache: 378253
 Pain in throat: 259153
 Diarrhea: 196523
-Nausea: 31967
-Nausea and vomiting: 27674
-Vomiting without nausea: 45757468
+Nausea: 31967 -
+Nausea and vomiting: 27674 -
+Vomiting without nausea: 45757468 
 Vomiting: 441408
 Chill: 434490
-Chest pain on breathing: 4168213
-Chest pain: 77670
+Chest pain on breathing: 4168213 -
+Chest pain: 77670 -
 Fatigue: 4223659
-Palpitations: 315078
+Palpitations: 315078 -
 Fever: 437663
-C-reactive protein abnormal: 439937
+C-reactive protein abnormal: 439937 inc
 
 # Vitals: measurement.csv
-Heart rate: 3027018
-Body temperature: 3020891
-Diastolic blood pressure: 3021888
-Systolic blood pressure: 3004249
-Peripheral oxygen saturation: 4196147
-Oxygen saturation in Arterial blood: 3016502
-Oxygen saturation in Mixed venous blood: 3018465
-Oxygen saturation in Venous blood: 3024928
-Lyphocytes in Blood by Automated Count: 3004327
-Neutrophiles in Blood by automated count: 3008342
-Eosinophils in Blood by automated count: 3009932
-ferretin in Serum or Plasma: 3015242
-lactate dehydrogenase in Serum or Plasma: 3022250
-fibrin in blood: 42870366
-Platelets in blood: 3024929
-Elevated levels of transaminases and lactate dehydrogenase: 436238
-gamma glutamil transferase in serum or plasma: 3026910
+Heart rate: 3027018 inc
+Body temperature: 3020891 inc
+Diastolic blood pressure: 3021888 inc
+Systolic blood pressure: 3004249 inc
+Peripheral oxygen saturation: 4196147 dec
+Oxygen saturation in Arterial blood: 3016502 dec
+Oxygen saturation in Mixed venous blood: 3018465 dec
+Oxygen saturation in Venous blood: 3024928 dec
+Lyphocytes in Blood by Automated Count: 3004327 dec
+Neutrophiles in Blood by automated count: 3013650 inc
+ferretin in Serum or Plasma: 3015242 inc
+lactate dehydrogenase in Serum or Plasma: 3022250 inc
+fibrin in blood: 42870366 inc
+Platelets in blood: 3024929 dec
+Elevated levels of transaminases and lactate dehydrogenase: 436238 inc
+gamma glutamil transferase in serum or plasma: 3026910 inc
+Hematocrit in blood: 3023314 dec
+
+No change-
 Monocytes in blood: 3033575
 Basophils in blood: 3013429
-
+Eosinophils in Blood by automated count: 3009932
 
 # References
-It is known that lymphocytopenia, defined as an absolute lymphocyte count (ALC) < 1000 cells/µL, occurs in Covid‐19 and may correlate with increased disease severity1-5; indeed, lymphocytopenia is a common systemic manifestation of many viral illnesses6;
-
-They reported that COVID-19 patients have the lowest count of lymphocytes and the highest neutrophil count and NLR [28]. Wang et al. [29] also showed that several COVID-19 patients have a rising neutrophil count and a falling lymphocyte count during the severe phase [29]
-
-https://www.news-medical.net/news/20201204/Blood-test-helps-in-identifying-markers-of-COVID-19.aspx
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7326624/
+1. It is known that lymphocytopenia, defined as an absolute lymphocyte count (ALC) < 1000 cells/µL, occurs in Covid‐19 and may correlate with increased disease severity1-5; indeed, lymphocytopenia is a common systemic manifestation of many viral illnesses6;
+2. They reported that COVID-19 patients have the lowest count of lymphocytes and the highest neutrophil count and NLR [28]. Wang et al. [29] also showed that several COVID-19 patients have a rising neutrophil count and a falling lymphocyte count during the severe phase [29]
+3. https://www.news-medical.net/news/20201204/Blood-test-helps-in-identifying-markers-of-COVID-19.aspx
+4. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7326624/
+5. https://portlandpress.com/bioscirep/article/40/8/BSR20200817/225914/Blood-routine-test-in-mild-and-common-2019
